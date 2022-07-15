@@ -1,0 +1,311 @@
+/**
+*    générale
+*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    Letter-spacing : .015em;
+    Line-height: 1.4;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {     
+    text-decoration: none;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 0 10vw;
+}
+
+
+/**
+*    index
+*/
+
+.index-img-container{
+position: relative;
+margin-top: 80px;
+}
+
+.index-img{
+    max-width: 100%;
+    object-fit: cover;
+    background-color: #354259;
+   
+}
+
+.index-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    z-index: 5;
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+
+/**
+*    boutons
+*/
+.btn-a{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    background-color: #ECE5C7;
+    font-size: 18px;
+    border-radius: 10px;
+    color: black;
+    padding-top: 10px;
+    position: relative;
+    left: 50%;
+    margin-left: -125px;
+    margin-top: 50px;
+}
+
+.btn-a:hover{
+    cursor: pointer;
+    background-color: #e9db9d;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: #79c4db;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn:hover:hover{
+    cursor: pointer;
+    background-color: #47b2d3;
+}
+
+
+/**
+*    page: article créé/modifié
+*/
+
+.form-article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.frm-article .titre{
+    width: 300px;
+    height: 50px;
+}
+
+
+.title-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.title-wrapper h2{
+    margin: 20px;
+}
+.button-wrapper{
+    display: flex;
+}
+
+.button-wrapper input,
+.button-wrapper a
+{
+    margin-left: 10px;
+    height: 50px;
+    background-color: #79c4db;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.button-wrapper a{
+    height: 30px;
+}
+
+.button-wrapper input:hover{
+    cursor: pointer;
+    background-color: #47b2d3;
+}
+
+
+/**
+ *  header
+ */
+ .header__container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #354259;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.header__navigation{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    z-index: 5;
+}
+
+
+.header__navigation li{
+    display: block;
+    cursor: pointer;
+    padding: 20px 20px;    
+    text-decoration: none;
+    position: relative;
+    align-self: center;
+}   
+
+.header__navigation > li a{
+    font-size: large;
+    color: white;
+}
+
+.hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #79c4db;
+    height: 25vh;
+    min-height: 300px; 
+    color:white;
+    
+}
+
+.hero-image h2{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+/**
+ *  articles
+ */
+.article{
+    margin-top: 50px;
+}
+
+.title-wrapper{
+    
+    background-color: rgb(216, 220, 221);
+    padding: 10px 20px 0 20px;
+    margin-bottom: 15px;
+    
+}
+
+.title{
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.text{
+    margin-bottom: 10px;
+}
+
+.author{
+    color: gray;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+/**
+ *  message
+ */
+.message{
+    margin: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.error{
+    color: red;
+}
+
+/**
+ *  footer
+ */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color:#354259;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer__social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.icone{
+    margin: 0 15px;
+}
+
+.footer .logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.page-container{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 200px;
+}
+
+
+
